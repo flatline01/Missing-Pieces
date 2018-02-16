@@ -1,0 +1,27 @@
+/* CSS Document */
+.MP_utils .imgholder{max-width:100%}
+.MP_utils .imgholder img{max-width:100%}
+.MP_utils .small{font-size: 80%}
+.MP_utils > div{margin:0 0 5px 0}
+.MP_utils label{display: block;margin:15px 0;}
+.MP_utils label span{display: inline-block;font-weight: bold}
+.MP_utils pre{background:#ddd;padding:.2rem .2rem;border-radius: 2px}
+.MP_utils .tabpanel{position: relative;max-width:600px;margin:25px 0  }
+.MP_utils .tabpanel.fullwidth{max-width: 100%}
+.MP_utils .tabpanel nav{border-bottom:1px solid #ccc;font-size: 0;margin:0 10px}
+.MP_utils .tabpanel nav a{display: inline-block;font-size: 1rem;text-decoration: none;border-radius: 3px;border:1px solid #ccc;padding:.5rem 1.5rem;bottom:-1px;position: relative;z-index: 1000;background:#ddd;}
+.MP_utils .tabpanel nav a ~a{border-left: 0}
+.MP_utils .tabpanel nav a.active{border-bottom: 1px solid rgba(255,255,255,1);background:rgba(255,255,255,1);padding-top:.8rem;box-shadow:2px -2px 2px rgba(0,0,0,.1);z-index: 1000;}
+.MP_utils .tabpanel nav a:active,.tabpanel nav a:focus {outline: none;box-shadow: none}
+.MP_utils .tabpanel .tabBody{position: absolute;height: 0;overflow: hidden;width:96%;box-shadow:3px -1px 3px rgba(0,0,0,.1);z-index: 999;}
+.MP_utils .tabpanel .tabBody.active{display: block;height: auto;border:1px solid #ccc;margin-top:-1px;padding:1rem 2%;background:rgba(255,255,255,1);border-radius: 3px}
+.MP_utils textarea{display: block;width:100%}
+.MP_utils .option{border:1px solid #d6e4ea;margin:0 0 10px;padding:0 10px 10px;border-radius: 3px;box-shadow: 0 0 2px rgba(0,0,0,.1);border-bottom: 4px solid #bcccd8;}
+.MP_utils .option p:last-child{margin:0}
+.MP_utils .option input[type=text]{width: 100%}
+.MP_utils h4{font-weight: bold}
+.mpu_meta_holder input[type=text]{min-width: 300px}
+
+.mpu_sidebar_menuholder .sidebarContentHolder{height: 0;overflow: hidden}
+.mpu_sidebar_menuholder .sidebarContentHolder.active{height: auto}
+

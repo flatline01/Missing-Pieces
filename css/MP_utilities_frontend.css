@@ -1,0 +1,15 @@
+/* CSS Document */
+.clearafter:after{content:" ";display:block;clear:both;}
+
+/*special sections and landing pages--------------------*/
+/*--accordions base styles--*/
+.accordion .accordionitem{display:block;margin:0 0 10px 0;padding:0}
+.accordion .accordionitem .accordiontitle{margin:0;position:relative;cursor: pointer;}
+.accordion .accordionitem .accordioncontent{overflow: hidden;height:0}
+.accordion .accordionitem .accordioncontent .contentholder{}
+
+/*--mobile/iphone ------------------------------------------------------------------*/
+@media only screen and (min-width: 1px) and (max-width: 920px){
+
+}
+
